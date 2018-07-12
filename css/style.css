@@ -1,0 +1,43 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	fint-family: "Open Sans", "Arial", sans-serif;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+/* NAavigation */
+header {
+	display: flex;
+	background-color: #444444;
+	text-transform: uppercase;
+	border: none;
+	padding-left: 100px;
+}
+
+nav > ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+nav a:hover {
+	border-bottom: 1px solid #9ac051;
+}
+
+nav li {
+	padding-right: 40px;
+}
+
+.main-site {
+	font-weight: 700;
+}
