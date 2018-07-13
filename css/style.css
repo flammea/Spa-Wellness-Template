@@ -5,7 +5,7 @@ body {
 }
 
 * {
-	fint-family: "Open Sans", "Arial", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	box-sizing: border-box;
 	font-size: 12px;
 }
@@ -38,6 +38,6 @@ nav li {
 	padding-right: 40px;
 }
 
-.main-site {
+.main-site a {
 	font-weight: 700;
 }
