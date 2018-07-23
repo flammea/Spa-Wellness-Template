@@ -86,3 +86,50 @@ nav li {
 	background-color: #004C00;
 
 }
+
+/* why-us */
+
+.why-us {
+	height: 300px;
+	background-color: #fcfbfb;
+	border-bottom: solid .5px #f2f2f2;
+	color: #444444;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 100px;
+}
+
+.points h3 {
+	font-family: "Times New Roman", serif;
+	margin: 0 0 20px 0;
+	font-size: 16px;
+}
+
+.points ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.points i {
+	color: #9ac051;
+	padding-right: 10px;
+}
+
+.points li {
+	margin-bottom: 20px;
+	font-size: 9px;
+}
+
+.points li span {
+	font-weight: 600;
+	font-size: 9px;
+}
+
+.offer {
+	height: 200px;
+}
+
+.image img {
+	border-radius: 5px;
+}
