@@ -49,11 +49,12 @@ nav li {
 	height: 400px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 70%;
+	background-position: bottom;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 
 .main-text {
 	color: #FFFFFF;
@@ -131,7 +132,6 @@ nav li {
 }
 
 .offer {
-	height: 200px;
 	display: flex;
 	justify-content: space-between;
 	padding: 0 100px;
@@ -139,9 +139,58 @@ nav li {
 
 .offer figure {
 	border-radius: 10px;
-	height: 100px;
 	width: 200px;
 	margin: 50px 0;
 	background-color: #fcfbfb;
 	border: 1px solid #f2f2f2;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.offer .circle-img {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+}
+
+.offer .skin {
+	background-image: url("../images/love-romantic-bath-candlelight.jpg");
+	background-position: bottom;
+}
+.offer .face {
+	background-image: url("../images/pexels-photo-725998.jpeg");
+	background-position: bottom;
+}
+.offer .body {
+	background-image: url("../images/pexels-photo-259810.jpeg");
+	background-position: bottom;
+}
+
+
+.offer h5 {
+	text-transform: uppercase;
+	color: #9ac051;
+	font-weight: 200;
+}
+
+.offer p {
+	margin: 0;
+	color: #444444;
+	text-align: center;
+	font-size: 9px;
+	padding: 0 20px;
+}
+
+.offer .read-more-less-btn {
+	background-color: #647e32;
+	color: #FFFFFF;
+	font-size: 8px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: none;
+	margin: 20px 0;
 }
