@@ -19,7 +19,7 @@ header {
 	padding-left: 100px;
 }
 
-nav > ul {
+nav>ul {
 	display: flex;
 	list-style: none;
 	padding-left: 0;
@@ -84,7 +84,7 @@ nav li {
 }
 
 .main-text .offer-button:hover {
-	background-color: #004C00;
+	background-color: #647e32;
 
 }
 
@@ -161,10 +161,12 @@ nav li {
 	background-image: url("../images/love-romantic-bath-candlelight.jpg");
 	background-position: bottom;
 }
+
 .offer .face {
 	background-image: url("../images/pexels-photo-725998.jpeg");
-	background-position: bottom;
+	background-position: center;
 }
+
 .offer .body {
 	background-image: url("../images/pexels-photo-259810.jpeg");
 	background-position: bottom;
@@ -193,4 +195,52 @@ nav li {
 	border-radius: 5px;
 	border: none;
 	margin: 20px 0;
+}
+
+/* newsletter */
+
+.newsletter {
+	height: 120px;
+	background-color: #9ac051;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.newsletter-form {
+	display: flex;
+	justify-content: center;
+}
+
+.newsletter-form input,
+.newsletter-form button {
+	border: none;
+	border-radius: 5px;
+	font-size: 10px;
+}
+
+.newsletter-form input {
+	margin-right: 15px;
+	padding: 5px 15px;
+	width: 250px;
+}
+
+.newsletter-form button {
+	background-color: #647e32;
+	color: #fff;
+	padding: 0 15px;
+}
+
+.newsletter h5 {
+	text-transform: uppercase;
+	font-family: "Times New Roman", serif;
+	margin: 0 0 15px 0;
+	font-size: 16px;
+}
+
+/* gallery */
+
+.gallery {
+	height: 300px;
 }
