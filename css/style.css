@@ -239,8 +239,62 @@ nav li {
 	font-size: 16px;
 }
 
-/* gallery */
+/* slider-container */
 
-.gallery {
-	height: 300px;
+.slider-container {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider li img {
+	width: 500px;
+	border-radius: 5px;
+}
+
+.slider-stage {
+	width: 500px;
+}
+
+.slider-container i {
+	font-size: 25px;
+}
+
+.previous-arrow,
+.next-arrow {
+	color: #f2f2f2;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.previous-arrow:hover,
+.next-arrow:hover {
+	color: #9ac051;
+}
+
+.slider {
+	list-style: none;
+	width: 500px;
+	padding: 0;
+	display: flex;
+	overflow: hidden;
+}
+
+/* Go up */
+.go-up {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	height: 50px;
+}
+
+.go-up i {
+	font-size: 25px;
+	color: #444444;
+	cursor: pointer;
+}
+
+.go-up i:hover {
+	color: #9ac051;
 }
