@@ -298,3 +298,78 @@ nav li {
 .go-up i:hover {
 	color: #9ac051;
 }
+
+/* Footer */
+footer {
+	display: flex;
+	background-color: #444444;
+	padding: 60px 100px;
+	color: #FFF;
+}
+
+footer>section {
+	width: 200px;
+}
+
+.about-us h5 {
+	font-family: "Times New Roman", serif;
+	font-weight: 200;
+	margin: 0 0 10px 0;
+}
+
+.about-us p {
+	font-size: 8px;
+	line-height: 2;
+	margin: 0 0 20px 0;
+}
+
+.social-media {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.social-media li {
+	background-color: #9ac051;
+	width: 25px;
+	height: 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.social-media a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.contact-details {
+	width: 130px;
+	margin-left: 25px;
+}
+
+.contact-details ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-details li {
+	font-size: 9px;
+	margin-bottom: 12px;
+	display: flex;
+}
+
+.contact-details a {
+	color: #FFF;
+	font-size: 9px;
+	text-decoration: none;
+}
+
+.contact-details i {
+	color: #9ac051;
+	margin-right: 10px;
+}
