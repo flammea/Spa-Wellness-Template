@@ -462,3 +462,10 @@ footer>section {
 .additional-paragraph {
 	display: none;
 }
+
+/* Newsletter */
+
+.form-info {
+	display: none;
+	text-align: center;
+}
