@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/app.js"></script>
 </head>
 
 <body>
@@ -16,7 +15,14 @@
             <ul>
                 <li class="main-site"><a href="#">Strona główna</a></li>
                 <li><a href="#">Dlaczego my?</a></li>
-                <li><a href="#">Zabiegi</a></li>
+                <li class="menu-trigger-el"><a href="#">Zabiegi</a>
+                    <ul class="nested-menu">
+                        <li>Medyczne peelingi</li>
+                        <li>Diagnoza skóry</li>
+                        <li>Kino wodne</li>
+                        <li>Rytuały w saunach</li>
+                    </ul>
+                </li>
                 <li><a href="#">Galeria</a></li>
                 <li><a href="#">Pakiety</a></li>
                 <li><a href="#">Kontakt</a></li>
@@ -42,7 +48,7 @@
             </ul>
         </section>
         <section class="image">
-            <img src="images/3135.jpg" alt"Massage">
+            <img src="images/3135.jpg" alt="Massage">
         </section>
     </section>
     <section class="offer">
@@ -50,7 +56,11 @@
             <div class="circle-img skin"></div>
             <h5>Luksusowe terapie skóry</h5>
             <p>Dbałość o wygląd i chęć zachowania młodości jak najdłużej zmusza nad do nieustanneh pracy nad kondycją
-                skóry.</p>
+                skóry. Dlatego przychodzimy Państwu z pomocą.</p>
+            <p class="additional-paragraph">Samemu często ciężko jest zmobilizować się do regularnego wykonywania
+                zabiegów pielęgnacyjnych. Spa &amp; wellness wychodząc naprzeciw Państwa potrzebom przygotowała
+                specjalną ofertę.
+            </p>
             <button class="read-more-less-btn">Czytaj więcej</button>
         </figure>
         <figure>
@@ -58,6 +68,10 @@
             <h5>Zabiegi na twarz</h5>
             <p>Pielęgnacją twarzy zajmujemy się profesjonalnie, pracując na wysokiej jakości kosmetykach firmy:
                 Skeyndor,Kurland, Organique oraz The Secret Soap Store</p>
+            <p class="additional-paragraph">
+                Samemu często ciężko jest zmobilizować się do regularnego wykonywania zabiegów pielęgnacyjnych. Spa
+                &amp; wellness wychodząc naprzeciw Państwa potrzebom przygotowała specjalną ofertę.
+            </p>
             <button class="read-more-less-btn">Czytaj więcej</button>
         </figure>
         <figure>
@@ -65,6 +79,10 @@
             <h5>Okłady na ciało</h5>
             <p>Zabiegi przeprowadzane przez nas personel sprzyjają wycieszeniu się, relaksacji, oczyszczeniu ciała i
                 umysłu. Podczas zabiegów poczują się Państwo wyjątkowo i błogo.</p>
+            <p class="additional-paragraph">
+                Samemu często ciężko jest zmobilizować się do regularnego wykonywania zabiegów pielęgnacyjnych. Spa
+                &amp; wellness wychodząc naprzeciw Państwa potrzebom przygotowała specjalną ofertę.
+            </p>
             <button class="read-more-less-btn">Czytaj więcej</button>
         </figure>
     </section>
@@ -163,6 +181,7 @@
         <p>&copy; Copyright 2018 SPA &amp; WELLNESS. Wszelkie prawa zastrzeżone.</p>
         <p><a href="www.freepic.com"></a>Photos from Freepik</p>
     </section>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>

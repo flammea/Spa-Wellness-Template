@@ -431,3 +431,34 @@ footer>section {
 	color: #FFF;
 	font-size: 6px;
 }
+
+/* Nested menu */
+
+.nested-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	background-color: #FFF;
+	position: absolute;
+	top: 40px;
+	display: none;
+}
+
+.nested-menu li {
+	color: #444444;
+	padding: 10px 15px;
+	text-transform: none;
+	cursor: pointer;
+}
+
+.nested-menu li:hover {
+	background-color: #9ac051;
+	color: #fff;
+}
+
+/* Addictional paragraph */
+
+.additional-paragraph {
+	display: none;
+}
