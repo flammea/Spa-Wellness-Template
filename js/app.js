@@ -44,5 +44,40 @@ newsletterBtn.addEventListener("click", function (event) {
     } else {
         formInfo.textContent = "Pole nie może być puste"
     }
-
 })
+
+
+// Gallery
+
+const slider = document.querySelector(".slider");
+const sliderStage = document.querySelector(".slider-stage");
+const prev = document.querySelector(".previous-arrow");
+const next = document.querySelector(".next-arrow");
+const slides = document.querySelectorAll(".slider li");
+
+const slideWidth = slides[0].clientWidth;
+let currentIndex = 0;
+let slideNumber = slides.length - 1;
+
+function goToSlide(index) {
+    if (index < 0) {
+        index = slideNumber;
+    } else if (index > slideNumber) {
+        index = 0;
+    }
+    slider.style.left = index * (-slideWidth) + "px";
+    currentIndex = index;
+}
+
+function goToNext() {
+    goToSlide(currentIndex + 1)
+}
+
+function goToPrev() {
+    goToSlide(currentIndex - 1)
+}
+
+next.addEventListener("click", goToNext);
+prev.addEventListener("click", goToPrev);
+
+setInterval(goToNext, 4000);
