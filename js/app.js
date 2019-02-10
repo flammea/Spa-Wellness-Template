@@ -81,3 +81,14 @@ next.addEventListener("click", goToNext);
 prev.addEventListener("click", goToPrev);
 
 setInterval(goToNext, 4000);
+
+// Go up button
+
+const goUpButton = document.querySelector(".go-up");
+goUpButton.addEventListener("click", function () {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    })
+})
